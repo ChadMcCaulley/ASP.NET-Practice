@@ -13,6 +13,7 @@ namespace LearningASP.NET.Models
 
         [Required]
         public string Name { get; set; }
-        public int Author { get; set; }
+        public string Author { get; set; }
+        public string ISBN { get; set; }
     }
 }
